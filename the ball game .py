@@ -29,6 +29,10 @@ clock = pygame.time.Clock()
 myFont = pygame.font.SysFont("times new roman", 44)
 screen: Surface | SurfaceType = pygame.display.set_mode((WIDTH, HEIGHT))
 
+logo = pygame.image.load('logo.jpeg')
+pygame.display.set_icon(logo)
+
+pygame.display.set_caption("The Ball Game")
 
 def set_level(score, speed1):
 
@@ -131,3 +135,4 @@ while not game_over:
     clock.tick(45)
 
     pygame.display.update()
+
