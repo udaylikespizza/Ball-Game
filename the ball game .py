@@ -10,7 +10,6 @@ WIDTH = 1540
 HEIGHT = 816
 
 RED = (0, 0, 255)
-green = (255, 0, 0)
 YELLOW = (0, 0, 0)
 BACKGROUND_COLOR = (255, 255, 255, 255)
 
@@ -135,4 +134,5 @@ while not game_over:
     clock.tick(45)
 
     pygame.display.update()
+
 
